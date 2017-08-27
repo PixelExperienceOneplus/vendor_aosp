@@ -32,3 +32,6 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 include vendor/aosp/config/packages.mk
+
+# Branding
+include vendor/aosp/config/branding.mk
