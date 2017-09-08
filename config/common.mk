@@ -37,3 +37,6 @@ include vendor/aosp/config/packages.mk
 
 # Branding
 include vendor/aosp/config/branding.mk
+
+# Overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
