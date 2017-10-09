@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init.local.rc:root/init.custom.rc
 
+# Fix Google dialer
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/mkshrc:system/etc/mkshrc
