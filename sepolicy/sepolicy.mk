@@ -1,2 +1,2 @@
-BOARD_SEPOLICY_DIRS += \
-    vendor/aosp/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    vendor/aosp/sepolicy
