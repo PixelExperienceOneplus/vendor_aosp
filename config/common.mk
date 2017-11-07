@@ -50,6 +50,9 @@ PRODUCT_COPY_FILES += \
 # GApps
 include vendor/aosp/config/gapps.mk
 
+# Pixel Style
+include vendor/pixelstyle/config.mk
+
 # Packages
 include vendor/aosp/config/packages.mk
 
