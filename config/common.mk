@@ -47,6 +47,9 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/aosp/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh
 
+# GApps
+include vendor/aosp/config/gapps.mk
+
 # Packages
 include vendor/aosp/config/packages.mk
 
