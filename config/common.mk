@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh
 
 # GApps
-include vendor/aosp/config/gapps.mk
+include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
