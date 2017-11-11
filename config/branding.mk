@@ -1,5 +1,5 @@
 # Set all versions
-CUSTOM_VERSION := aosp_$(CUSTOM_BUILD)-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-pissel
+CUSTOM_VERSION := PixelExperience_$(CUSTOM_BUILD)-$(PLATFORM_VERSION)-$(shell date -u +%Y%m%d-%H%M)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
