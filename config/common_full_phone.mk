@@ -18,3 +18,10 @@ PRODUCT_COPY_FILES += \
 # SIM Toolkit
 PRODUCT_PACKAGES += \
     Stk
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
