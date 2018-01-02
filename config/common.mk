@@ -23,7 +23,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/aosp/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/aosp/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/aosp/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh
 
 # Init file
 PRODUCT_COPY_FILES += \
